@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Name from './Name';
+import HeaderLinks from './HeaderLinks';
 import * as serviceWorker from './serviceWorker';
+import PostContainer from './PostContainer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Name />
+    <HeaderLinks />
+    <PostContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
