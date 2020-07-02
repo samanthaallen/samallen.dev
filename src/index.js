@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Name from './Name';
-import HeaderLinks from './HeaderLinks';
+import HeaderNavigation from './HeaderNavigation';
 import * as serviceWorker from './serviceWorker';
-import PostContainer from './PostContainer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HeaderLinks />
+    <HeaderNavigation />
   </React.StrictMode>,
   document.getElementById('root')
 );
