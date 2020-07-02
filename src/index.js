@@ -8,9 +8,7 @@ import PostContainer from './PostContainer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Name />
     <HeaderLinks />
-    <PostContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
