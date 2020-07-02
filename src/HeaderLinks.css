@@ -1,0 +1,18 @@
+.HeaderLinkContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.HeaderLink {
+    width: 250px;
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    width: 80%;
+    max-width: 1280px;
+    border-width: 0;
+}

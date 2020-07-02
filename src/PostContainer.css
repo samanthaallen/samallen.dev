@@ -1,0 +1,54 @@
+.PostContainer {
+    width: 80%;
+    max-width: 1280px;
+    height: fit-content;
+    background-color: #e4dcec;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.StickyTape {
+    width: 150px;
+    height: 50px;
+    background-color: #A16FBF;
+    top: -25px;
+    right: calc(50% - 75px);
+    position: absolute;
+}
+
+.StickyTapeWords {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
+.PostFlexBox {
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.PostFlexBoxItem {
+    width: 45%;
+    min-width: 280px;
+}
+
+.PostFlexBoxItem > img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    .PostFlexBoxItem {
+        width: 80%;
+    }
+  }
