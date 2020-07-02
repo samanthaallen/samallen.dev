@@ -1,10 +1,10 @@
 import React from "react";
 
-function Tech() {
+function AboutPage() {
   return (
     <div>
     </div>
   );
 }
 
-export default Tech;
+export default AboutPage;

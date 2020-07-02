@@ -1,10 +1,10 @@
 import React from "react";
 
-function Recipes() {
+function TechPage() {
   return (
     <div>
     </div>
   );
 }
 
-export default Recipes;
+export default TechPage;

@@ -2,13 +2,13 @@ import React from "react";
 import "./HeaderLinks.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import Recipes from "./Recipes";
-import Tech from "./Tech";
-import About from "./About";
-import Resume from "./Resume";
+import RecipePage from "./RecipePage";
+import TechPage from "./TechPage";
+import AboutPage from "./AboutPage";
+import ResumePage from "./ResumePage";
 import PostContainer from "./PostContainer";
 
-function HeaderLinks() {
+function HeaderNavigation() {
   return (
     <div>
       <Router>
@@ -36,16 +36,16 @@ function HeaderLinks() {
             <PostContainer />
           </Route>
           <Route path="/recipes">
-            <Recipes />
+            <RecipePage />
           </Route>
           <Route path="/tech">
-            <Tech />
+            <TechPage />
           </Route>
           <Route path="/about">
-            <About />
+            <AboutPage />
           </Route>
           <Route path="/resume">
-            <Resume />
+            <ResumePage />
           </Route>
         </Switch>
       </Router>
@@ -53,4 +53,4 @@ function HeaderLinks() {
   );
 }
 
-export default HeaderLinks;
+export default HeaderNavigation;
