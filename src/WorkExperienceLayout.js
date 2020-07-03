@@ -5,13 +5,11 @@ function WorkExperienceLayout(props) {
   return (
     <div className="WorkExperienceLayout">
       <div className="LeftColumn">
-        <h2>{props.company}</h2>
-        <h3>{props.jobTitle}</h3>
-        <h4>{props.jobDate}</h4>
+        <h2 className="Company">{props.company}</h2>
+        <h3 className="Title">{props.jobTitle}</h3>
+        <h4 className="Date">{props.jobDate}</h4>
       </div>
-      <div className="RightColumn">
-        {props.jobDescription}
-      </div>
+      <div className="RightColumn">{props.jobDescription}</div>
     </div>
   );
 }
