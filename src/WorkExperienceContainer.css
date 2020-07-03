@@ -7,5 +7,19 @@
     margin-right: auto;
     margin-top: 50px;
     position: relative;
-    padding: 20px;
+    padding-top: 20px;
+}
+
+.WorkExperienceHr {
+    height: 2px;
+    background-color: black;
+    border-width: 0;
+    width: calc(100% - 40px);
+}
+
+.SalesforceHr {
+    height: 2px;
+    background-color: black;
+    border-width: 0;
+    width: calc(80% - 40px); 
 }

@@ -1,12 +1,23 @@
 .WorkExperienceLayout {
-  display: grid;
-  grid-template-columns: 33% 67%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
 }
 
 .LeftColumn {
-  grid-column: 1;
+  width: 33%;
 }
 
 .RightColumn {
-  grid-column: 2;
+  width: 67%;
+}
+
+@media screen and (max-width: 720px) {
+  .LeftColumn {
+    width: 100%;
+  }
+
+  .RightColumn {
+    width: 100%;
+  }
 }

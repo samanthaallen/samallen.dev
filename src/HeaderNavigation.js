@@ -29,7 +29,7 @@ function HeaderNavigation() {
             Resume
           </Link>
         </div>
-        <hr />
+        <hr className="HeaderHr" />
 
         <Switch>
           <Route exact path="/">
