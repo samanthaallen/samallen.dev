@@ -42,7 +42,7 @@
     min-width: 280px;
 }
 
-.PostFlexBoxItem > img {
+.PostFlexBoxItem > img{
     max-height: 100%;
     max-width: 100%;
 }

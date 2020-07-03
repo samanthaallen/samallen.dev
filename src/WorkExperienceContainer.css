@@ -1,0 +1,11 @@
+.WorkExperienceContainer {
+    width: 80%;
+    max-width: 1280px;
+    height: fit-content;
+    background-color: #e4dcec;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    padding: 20px;
+}
