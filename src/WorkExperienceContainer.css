@@ -11,14 +11,14 @@
 }
 
 .WorkExperienceHr {
-    height: 2px;
+    height: 1px;
     background-color: black;
     border-width: 0;
     width: calc(100% - 40px);
 }
 
 .SalesforceHr {
-    height: 2px;
+    height: 1px;
     background-color: black;
     border-width: 0;
     width: calc(80% - 40px); 
