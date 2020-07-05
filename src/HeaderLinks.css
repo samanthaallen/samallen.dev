@@ -1,0 +1,22 @@
+.Name {
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.HeaderLinkContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.HeaderLink {
+    width: 250px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}

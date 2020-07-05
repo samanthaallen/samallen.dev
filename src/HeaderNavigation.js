@@ -7,28 +7,13 @@ import TechPage from "./TechPage";
 import AboutPage from "./AboutPage";
 import ResumePage from "./ResumePage";
 import PostContainer from "./PostContainer";
+import HeaderLinks from "./HeaderLinks";
 
 function HeaderNavigation() {
   return (
     <div>
       <Router>
-        <Link to="/" className="Name">
-          <h1 className="Name">Sam Allen</h1>
-        </Link>
-        <div className="HeaderLinkContainer">
-          <Link to="/recipes" className="HeaderLink">
-            Recipes
-          </Link>
-          <Link to="/tech" className="HeaderLink">
-            Tech Blog
-          </Link>
-          <Link to="/about" className="HeaderLink">
-            About
-          </Link>
-          <Link to="/resume" className="HeaderLink">
-            Resume
-          </Link>
-        </div>
+        <HeaderLinks />
         <hr className="HeaderHr" />
 
         <Switch>
