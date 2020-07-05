@@ -8,6 +8,7 @@ import AboutPage from "./AboutPage";
 import ResumePage from "./ResumePage";
 import PostContainer from "./PostContainer";
 import HeaderLinks from "./HeaderLinks";
+import FooterNavigation from "./FooterNavigation";
 
 function HeaderNavigation() {
   return (
@@ -19,18 +20,23 @@ function HeaderNavigation() {
         <Switch>
           <Route exact path="/">
             <PostContainer />
+            <FooterNavigation />
           </Route>
           <Route path="/recipes">
             <RecipePage />
+            <FooterNavigation />
           </Route>
           <Route path="/tech">
             <TechPage />
+            <FooterNavigation />
           </Route>
           <Route path="/about">
             <AboutPage />
+            <FooterNavigation />
           </Route>
           <Route path="/resume">
             <ResumePage />
+            <FooterNavigation />
           </Route>
         </Switch>
       </Router>
