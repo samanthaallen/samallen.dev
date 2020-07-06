@@ -1,0 +1,46 @@
+.FooterContainer {
+  height: fit-content;
+  background-color: #dfdfdf;
+  padding-left: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.FooterName {
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.FooterLinkContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.FooterLink {
+  width: 150px;
+  color: black;
+  text-decoration: none;
+}
+
+.FooterHr {
+  height: 2px;
+  background-color: black;
+  width: 90%;
+  border-width: 0;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.FooterText {
+  margin-top: 50px;
+}
+
+.FooterTextLink {
+  color: black;
+  text-decoration: none;
+}
