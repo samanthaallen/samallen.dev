@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeaderNavigation.css";
+import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import RecipePage from "./RecipePage";
@@ -10,13 +10,12 @@ import PostContainer from "./PostContainer";
 import HeaderLinks from "./HeaderLinks";
 import FooterNavigation from "./FooterNavigation";
 
-function HeaderNavigation() {
+function App() {
   return (
     <div>
       <Router>
         <HeaderLinks />
         <hr className="HeaderHr" />
-
         <Switch>
           <Route exact path="/">
             <PostContainer />
@@ -24,15 +23,12 @@ function HeaderNavigation() {
           </Route>
           <Route path="/recipes">
             <RecipePage />
-            <FooterNavigation />
           </Route>
           <Route path="/tech">
             <TechPage />
-            <FooterNavigation />
           </Route>
           <Route path="/about">
             <AboutPage />
-            <FooterNavigation />
           </Route>
           <Route path="/resume">
             <ResumePage />
@@ -44,4 +40,4 @@ function HeaderNavigation() {
   );
 }
 
-export default HeaderNavigation;
+export default App;
