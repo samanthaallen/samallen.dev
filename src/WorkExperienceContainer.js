@@ -1,6 +1,7 @@
 import React from "react";
 import "./PostContainer.css";
 import "./WorkExperienceContainer.css";
+import PostContainer from "./PostContainer";
 import WorkExperienceLayout from "./WorkExperienceLayout";
 import JobDescriptionIntercom from "./JobDescriptionIntercom";
 import JobDescriptionSalesforceLMTS from "./JobDescriptionSalesforceLMTS";
@@ -14,10 +15,7 @@ import JobDescriptionUT from "./JobDescriptionUT";
 
 function WorkExperienceContainer() {
   return (
-    <div className="WorkExperienceContainer">
-      <div className="StickyTape">
-        <h3 className="StickyTapeWords">Experience</h3>
-      </div>
+    <PostContainer stickyTape="Experience">
       <WorkExperienceLayout
         company="Intercom"
         jobTitle="Product Enginer III"
@@ -77,7 +75,7 @@ function WorkExperienceContainer() {
         jobDate="January 2013 - May 2013"
         jobDescription={<JobDescriptionUT />}
       />
-    </div>
+    </PostContainer>
   );
 }
 
