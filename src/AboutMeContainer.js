@@ -6,11 +6,11 @@ import PostContainer from "./PostContainer";
 function AboutMeContainer() {
   return (
     <PostContainer stickyTape="Who's Sam">
-      <div className="PostFlexBox">
-        <div className="PostFlexBoxItem">
+      <div className="AboutMeFlexBox">
+        <div className="AboutMeFlexBoxItem">
           <img src={selfie} alt="Selfie of Sam" />
         </div>
-        <div className="PostFlexBoxItem">
+        <div className="AboutMeFlexBoxItem">
           <div className="SelfBio">
             <h2>Meet Sam Allen</h2>
             <p>
