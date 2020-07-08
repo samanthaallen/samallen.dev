@@ -6,7 +6,7 @@ import RecipePage from "./RecipePage";
 import TechPage from "./TechPage";
 import AboutPage from "./AboutPage";
 import ResumePage from "./ResumePage";
-import PostContainer from "./PostContainer";
+import AboutMeContainer from "./AboutMeContainer";
 import HeaderLinks from "./HeaderLinks";
 import FooterNavigation from "./FooterNavigation";
 
@@ -18,7 +18,7 @@ function App() {
         <hr className="HeaderHr" />
         <Switch>
           <Route exact path="/">
-            <PostContainer />
+            <AboutMeContainer />
             <FooterNavigation />
           </Route>
           <Route path="/recipes">
