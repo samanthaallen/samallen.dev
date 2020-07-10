@@ -1,7 +1,6 @@
 .AboutMeFlexBox {
     height: fit-content;
     padding-top: 30px;
-    padding-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
