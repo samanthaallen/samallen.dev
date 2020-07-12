@@ -5,7 +5,7 @@ import PostContainer from "./PostContainer";
 
 function AboutMeContainer() {
   return (
-    <PostContainer stickyTape="Who's Sam">
+    <PostContainer stickyTape="Who's Sam" backgroundColor="#e4dcec" stickyTapeColor="#A16FBF">
       <div className="AboutMeFlexBox">
         <div className="AboutMeFlexBoxItem">
           <img src={selfie} alt="Selfie of Sam" />

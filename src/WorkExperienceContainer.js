@@ -15,7 +15,7 @@ import JobDescriptionUT from "./JobDescriptionUT";
 
 function WorkExperienceContainer() {
   return (
-    <PostContainer stickyTape="Experience">
+    <PostContainer stickyTape="Experience" backgroundColor="#e4dcec" stickyTapeColor="#A16FBF">
       <div className="WorkExperienceContainer">
         <WorkExperienceLayout
           company="Intercom"
