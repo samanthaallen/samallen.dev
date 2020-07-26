@@ -1,6 +1,8 @@
 import React from "react";
 import { lightGreen, darkGreen } from "./constants/colors";
 import PostContainer from "./PostContainer";
+import TechPostLayout from "./TechPostLayout";
+import PostPreview from "./PostPreview";
 
 function TechPage() {
   return (
@@ -8,7 +10,14 @@ function TechPage() {
       stickyTape="Tech Blog"
       backgroundColor={lightGreen}
       stickyTapeColor={darkGreen}
-    ></PostContainer>
+    >
+      <TechPostLayout>
+        <PostPreview></PostPreview>
+        <PostPreview></PostPreview>
+        <PostPreview></PostPreview>
+        <PostPreview></PostPreview>
+      </TechPostLayout>
+    </PostContainer>
   );
 }
 
