@@ -1,11 +1,16 @@
 import React from "react";
 import "./AboutMeContainer.css";
+import { lightPurple, darkPurple } from "./constants/colors";
 import selfie from "./assets/selfie.jpg";
 import PostContainer from "./PostContainer";
 
 function AboutMeContainer() {
   return (
-    <PostContainer stickyTape="Who's Sam" backgroundColor="#e4dcec" stickyTapeColor="#A16FBF">
+    <PostContainer
+      stickyTape="Who's Sam"
+      backgroundColor={lightPurple}
+      stickyTapeColor={darkPurple}
+    >
       <div className="AboutMeFlexBox">
         <div className="AboutMeFlexBoxItem">
           <img src={selfie} alt="Selfie of Sam" />

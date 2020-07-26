@@ -1,6 +1,7 @@
 import React from "react";
 import "./PostContainer.css";
 import "./WorkExperienceContainer.css";
+import { lightPurple, darkPurple } from "./constants/colors";
 import PostContainer from "./PostContainer";
 import WorkExperienceLayout from "./WorkExperienceLayout";
 import JobDescriptionIntercom from "./JobDescriptionIntercom";
@@ -15,7 +16,11 @@ import JobDescriptionUT from "./JobDescriptionUT";
 
 function WorkExperienceContainer() {
   return (
-    <PostContainer stickyTape="Experience" backgroundColor="#e4dcec" stickyTapeColor="#A16FBF">
+    <PostContainer
+      stickyTape="Experience"
+      backgroundColor={lightPurple}
+      stickyTapeColor={darkPurple}
+    >
       <div className="WorkExperienceContainer">
         <WorkExperienceLayout
           company="Intercom"
