@@ -1,9 +1,6 @@
 .PostPreview {
+    margin-bottom: 20px;
     width: 45%;
-}
-
-.PostSpacer {
-    height: 15%;
 }
 
 .PostText {

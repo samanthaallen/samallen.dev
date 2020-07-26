@@ -5,10 +5,8 @@ function PostPreview(props) {
   return (
     <div className="PostPreview">
       <a className="PostText" href={props.url}>
-        <div className="PostSpacer">
-          <h2>{props.title}</h2>
-        </div>
         <img src={props.image} className="PostImage" />
+        <h2>{props.title}</h2>
         <p>{props.children}</p>
       </a>
     </div>
