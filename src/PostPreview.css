@@ -1,0 +1,23 @@
+.PostPreview {
+    width: 45%;
+}
+
+.PostSpacer {
+    height: 15%;
+}
+
+.PostText {
+    text-decoration: none;
+    color: black;
+}
+
+.PostImage {
+    width: 100%;
+    max-height: 250px;
+}
+
+@media screen and (max-width: 720px) {
+    .PostPreview {
+        width: 80%;
+    }
+  }
