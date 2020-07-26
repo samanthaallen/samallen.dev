@@ -25,6 +25,7 @@ function App() {
           </Route>
           <Route path="/tech">
             <TechPage />
+            <FooterNavigation />
           </Route>
           <Route path="/about">
             <AboutPage />
