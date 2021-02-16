@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import RecipePage from "./RecipePage";
 import TechPage from "./TechPage";
 import AboutPage from "./AboutPage";
@@ -29,6 +29,7 @@ function App() {
           </Route>
           <Route path="/about">
             <AboutPage />
+            <FooterNavigation />
           </Route>
           <Route path="/resume">
             <ResumePage />

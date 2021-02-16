@@ -1,7 +1,7 @@
 import React from "react";
 import "./FooterNavigation.css";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 
 function FooterNavigation() {
   return (
@@ -25,7 +25,7 @@ function FooterNavigation() {
         </Link>
       </div>
       <p className="FooterText">
-        ©2020 Samantha Allen.  Designed by <a href="https://chris.horse/" className="FooterTextLink">Christopher Sullivan.</a>
+        ©2021 Sam Allen.  Designed by <a href="https://chris.horse/" className="FooterTextLink">Christopher Sullivan.</a>
       </p>
     </div>
   );

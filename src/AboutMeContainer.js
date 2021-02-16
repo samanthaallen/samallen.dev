@@ -25,7 +25,7 @@ function AboutMeContainer() {
               others.
             </p>
             <p>
-              Pronouns: <b>She/Her</b>
+              Pronouns: <b>They/Them</b>
               <br />
               Location: <b>San Francisco, California</b>
             </p>
